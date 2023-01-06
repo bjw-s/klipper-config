@@ -44,3 +44,10 @@ In order to mount this I have purchased and installed V3 of this fan system by [
 I have replaced the stock hotend cooling fan with a GDSTIME 5015 24v blower fan. ([Amazon link](https://www.amazon.de/gp/product/B08QJ5C5PS))
 
 In order to mount this I have purchased and installed this support plate by [Zuff](https://cults3d.com/en/users/Zuff): https://cults3d.com/en/3d-model/tool/ender-3-s1-pro-4020-fan-cr-touch-no-y-offset. This has the additional benefit of removing the Y offset for the CR-Touch allowing it to reach more of the bed.
+
+### Print bed
+
+I have added some clips to the print bed to help align the PEI sheet. These are also designed by [Zuff](https://cults3d.com/en/users/Zuff): https://cults3d.com/en/3d-model/tool/creality-ender-3-s1-s1pro-guide-plaque-pei.
+
+In order to be able to move the printer a bit further back towards the wall I have rotated the bed cable 90 degrees. I have used the following model to do so: https://www.thingiverse.com/thing:5408215.
+I have also added this cable guide to prevent he cable from getting snagged on the stepper motor / Y-axis gantry: https://www.thingiverse.com/thing:5562309.
