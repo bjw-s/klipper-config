@@ -9,7 +9,7 @@ Since I use PrusaSlicer the following config snippets are only tested on that, b
 ```
 M190 S0; don't set bed temperature
 M104 S0; don't set extruder temperature
-START_PRINT BED={first_layer_bed_temperature[0]} EXTRUDER={first_layer_temperature[0]}
+START_PRINT BED_TEMP=[first_layer_bed_temperature] EXTRUDER_TEMP={first_layer_temperature[initial_extruder]} AREA_START={first_layer_print_min[0]},{first_layer_print_min[1]} AREA_END={first_layer_print_max[0]},{first_layer_print_max[1]}
 ```
 
 ### End GCODE
@@ -20,7 +20,11 @@ END_PRINT
 
 ## Modifications
 
-Even though I am trying to keep this printer as close to stock as possible, we all know that is pretty much impossible :P
+### Print bed
+
+Due to a cable failure on the original I have replaced the stock print bed with the 3-point Y-carriage and heated bed from GulfCoast Robotics.
+- [3-Point Y-carriage](https://gulfcoast-robotics.com/collections/products/products/modular-3-point-y-carriage-for-ender-3-s1-pro)
+- [Build plate](https://gulfcoast-robotics.com/collections/heated-beds/products/aluminum-build-plate-and-24v-200w-silicone-heater-for-heated-bed-creality-ender-3)
 
 ### Print head
 
